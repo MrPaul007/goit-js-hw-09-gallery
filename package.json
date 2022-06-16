@@ -1,0 +1,25 @@
+{
+  "name": "goit-js-hw-09-gallery",
+  "version": "1.0.0",
+  "description": "",
+  "sorce": "src/index.html",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /goit-js-hw-09-gallery/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrPaul007/goit-js-hw-09-gallery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrPaul007/goit-js-hw-09-gallery/issues"
+  },
+  "homepage": "https://mrpul007.github.io/goit-js-hw-09-gallery",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
